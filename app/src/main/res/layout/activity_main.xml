@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/classificationButton"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/classification"
+        android:onClick="onClassificationButtonClick"
+        app:layout_constraintBottom_toTopOf="@+id/directoryButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/directoryButton"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/directory"
+        android:onClick="onDirectoryButtonClick"
+        app:layout_constraintBottom_toTopOf="@+id/mapButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="191dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/map"
+        android:onClick="onMapButtonClick"
+        app:layout_constraintBottom_toTopOf="@+id/aboutButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="247dp"
+        android:text="@string/about_page"
+        android:onClick="onAboutButtonClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
